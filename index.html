@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 <meta charset="UTF-8"/>
@@ -190,15 +189,15 @@ footer p{font-size:0.78rem;color:var(--muted);line-height:1.8}
 #btt svg{width:18px;height:18px;fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round}
 
 /* ════════════════════════════════
-LIVE DEMO — FULLY WORKING SYSTEM
-════════════════════════════════ */
+   LIVE DEMO — FULLY WORKING SYSTEM
+   ════════════════════════════════ */
 
 .demo-section-wrap{position:relative;z-index:1;padding:100px 6%;max-width:1240px;margin:0 auto}
 
 /* Role switcher tabs */
 .demo-intro{text-align:center;margin-bottom:48px}
-.role-tabs{display:inline-flex;background:var(–card);border:1px solid var(–border);border-radius:14px;padding:5px;gap:4px;margin-top:24px}
-.role-tab{padding:10px 28px;border-radius:10px;border:none;background:transparent;font-family:‘Syne’,sans-serif;font-weight:700;font-size:0.82rem;cursor:pointer;transition:all 0.25s;color:var(–muted);letter-spacing:0.04em}
+.role-tabs{display:inline-flex;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:5px;gap:4px;margin-top:24px}
+.role-tab{padding:10px 28px;border-radius:10px;border:none;background:transparent;font-family:'Syne',sans-serif;font-weight:700;font-size:0.82rem;cursor:pointer;transition:all 0.25s;color:var(--muted);letter-spacing:0.04em}
 .role-tab.active-student{background:linear-gradient(135deg,#38bdf8,#818cf8);color:#fff;box-shadow:0 4px 16px rgba(56,189,248,0.25)}
 .role-tab.active-teacher{background:linear-gradient(135deg,#818cf8,#34d399);color:#fff;box-shadow:0 4px 16px rgba(129,140,248,0.25)}
 
@@ -207,119 +206,118 @@ LIVE DEMO — FULLY WORKING SYSTEM
 @media(max-width:860px){.demo-arena{grid-template-columns:1fr}}
 
 /* Panel */
-.demo-panel{border-radius:20px;overflow:hidden;border:1px solid var(–border)}
-.panel-header{padding:16px 22px;display:flex;align-items:center;gap:10px;border-bottom:1px solid var(–border)}
+.demo-panel{border-radius:20px;overflow:hidden;border:1px solid var(--border)}
+.panel-header{padding:16px 22px;display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--border)}
 .panel-header.student-hdr{background:linear-gradient(135deg,rgba(56,189,248,0.12),rgba(129,140,248,0.08))}
 .panel-header.teacher-hdr{background:linear-gradient(135deg,rgba(129,140,248,0.12),rgba(52,211,153,0.08))}
-.panel-role-badge{font-family:‘Syne’,sans-serif;font-size:0.72rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;padding:4px 12px;border-radius:99px}
-.student-badge{background:rgba(56,189,248,0.12);color:var(–accent);border:1px solid rgba(56,189,248,0.25)}
-.teacher-badge{background:rgba(129,140,248,0.12);color:var(–accent2);border:1px solid rgba(129,140,248,0.25)}
-.live-indicator{display:flex;align-items:center;gap:5px;font-size:0.68rem;color:var(–accent3);font-weight:600;margin-left:auto}
-.live-dot{width:6px;height:6px;border-radius:50%;background:var(–accent3);animation:blink 1.5s infinite}
-.panel-body{background:var(–card);padding:20px}
+.panel-role-badge{font-family:'Syne',sans-serif;font-size:0.72rem;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;padding:4px 12px;border-radius:99px}
+.student-badge{background:rgba(56,189,248,0.12);color:var(--accent);border:1px solid rgba(56,189,248,0.25)}
+.teacher-badge{background:rgba(129,140,248,0.12);color:var(--accent2);border:1px solid rgba(129,140,248,0.25)}
+.live-indicator{display:flex;align-items:center;gap:5px;font-size:0.68rem;color:var(--accent3);font-weight:600;margin-left:auto}
+.live-dot{width:6px;height:6px;border-radius:50%;background:var(--accent3);animation:blink 1.5s infinite}
+.panel-body{background:var(--card);padding:20px}
 
 /* Student submit form */
 .anon-notice{background:rgba(52,211,153,0.07);border:1px solid rgba(52,211,153,0.2);border-radius:10px;padding:10px 14px;display:flex;align-items:center;gap:10px;margin-bottom:18px}
-.anon-notice span{font-size:0.78rem;color:var(–accent3);font-weight:600}
-.anon-notice p{font-size:0.73rem;color:var(–muted);margin:0}
+.anon-notice span{font-size:0.78rem;color:var(--accent3);font-weight:600}
+.anon-notice p{font-size:0.73rem;color:var(--muted);margin:0}
 .form-field{margin-bottom:14px}
-.form-field label{display:block;font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(–muted);margin-bottom:7px}
-.form-field textarea{width:100%;background:var(–bg);border:1px solid var(–border);border-radius:10px;padding:12px 14px;color:var(–text);font-family:‘Inter’,sans-serif;font-size:0.86rem;resize:none;outline:none;transition:border-color 0.25s,box-shadow 0.25s;line-height:1.6;min-height:100px}
+.form-field label{display:block;font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-bottom:7px}
+.form-field textarea{width:100%;background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:12px 14px;color:var(--text);font-family:'Inter',sans-serif;font-size:0.86rem;resize:none;outline:none;transition:border-color 0.25s,box-shadow 0.25s;line-height:1.6;min-height:100px}
 .form-field textarea:focus{border-color:rgba(56,189,248,0.45);box-shadow:0 0 0 3px rgba(56,189,248,0.07)}
-.form-field textarea::placeholder{color:var(–muted)}
+.form-field textarea::placeholder{color:var(--muted)}
 .form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
-.form-field select{width:100%;background:var(–bg);border:1px solid var(–border);border-radius:10px;padding:10px 14px;color:var(–text);font-family:‘Inter’,sans-serif;font-size:0.83rem;outline:none;cursor:pointer;transition:border-color 0.2s}
+.form-field select{width:100%;background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:10px 14px;color:var(--text);font-family:'Inter',sans-serif;font-size:0.83rem;outline:none;cursor:pointer;transition:border-color 0.2s}
 .form-field select:focus{border-color:rgba(56,189,248,0.45)}
-.form-field select option{background:var(–card)}
+.form-field select option{background:var(--card)}
 .char-bar-wrap{display:flex;align-items:center;gap:8px;margin-bottom:14px}
 .char-bar-bg{flex:1;height:3px;background:rgba(255,255,255,0.05);border-radius:99px;overflow:hidden}
-.char-bar-fill{height:100%;background:linear-gradient(90deg,var(–accent),var(–accent2));border-radius:99px;transition:width 0.2s,background 0.2s}
-.char-count-lbl{font-size:0.68rem;color:var(–muted);min-width:50px;text-align:right}
-.submit-btn{width:100%;padding:13px;background:linear-gradient(135deg,#38bdf8,#818cf8);border:none;border-radius:11px;color:#fff;font-family:‘Syne’,sans-serif;font-weight:800;font-size:0.86rem;cursor:pointer;letter-spacing:0.03em;transition:transform 0.2s,box-shadow 0.2s,opacity 0.2s;box-shadow:0 4px 20px rgba(56,189,248,0.22)}
+.char-bar-fill{height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2));border-radius:99px;transition:width 0.2s,background 0.2s}
+.char-count-lbl{font-size:0.68rem;color:var(--muted);min-width:50px;text-align:right}
+.submit-btn{width:100%;padding:13px;background:linear-gradient(135deg,#38bdf8,#818cf8);border:none;border-radius:11px;color:#fff;font-family:'Syne',sans-serif;font-weight:800;font-size:0.86rem;cursor:pointer;letter-spacing:0.03em;transition:transform 0.2s,box-shadow 0.2s,opacity 0.2s;box-shadow:0 4px 20px rgba(56,189,248,0.22)}
 .submit-btn:hover:not(:disabled){transform:translateY(-2px);box-shadow:0 8px 30px rgba(56,189,248,0.35)}
 .submit-btn:disabled{opacity:0.5;cursor:not-allowed}
 .submit-btn .spinner{display:none;width:16px;height:16px;border:2px solid rgba(255,255,255,0.3);border-top-color:#fff;border-radius:50%;animation:spin 0.7s linear infinite;margin:0 auto}
 @keyframes spin{to{transform:rotate(360deg)}}
 .success-flash{display:none;background:rgba(52,211,153,0.1);border:1px solid rgba(52,211,153,0.3);border-radius:10px;padding:12px 16px;text-align:center;margin-top:12px;animation:slideIn 0.3s ease}
-.success-flash p{font-size:0.82rem;color:var(–accent3);font-weight:600}
+.success-flash p{font-size:0.82rem;color:var(--accent3);font-weight:600}
 
 /* Teacher dashboard */
 .t-toolbar{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap;align-items:center}
-.t-search{flex:1;min-width:120px;background:var(–bg);border:1px solid var(–border);border-radius:8px;padding:8px 12px;color:var(–text);font-size:0.8rem;font-family:‘Inter’,sans-serif;outline:none;transition:border-color 0.2s}
+.t-search{flex:1;min-width:120px;background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:8px 12px;color:var(--text);font-size:0.8rem;font-family:'Inter',sans-serif;outline:none;transition:border-color 0.2s}
 .t-search:focus{border-color:rgba(56,189,248,0.4)}
-.t-search::placeholder{color:var(–muted)}
-.filter-chip{padding:5px 12px;border-radius:99px;border:1px solid var(–border);background:transparent;font-size:0.72rem;font-weight:600;color:var(–muted);cursor:pointer;transition:all 0.2s;font-family:‘Inter’,sans-serif}
-.filter-chip.on{background:rgba(56,189,248,0.1);border-color:rgba(56,189,248,0.3);color:var(–accent)}
+.t-search::placeholder{color:var(--muted)}
+.filter-chip{padding:5px 12px;border-radius:99px;border:1px solid var(--border);background:transparent;font-size:0.72rem;font-weight:600;color:var(--muted);cursor:pointer;transition:all 0.2s;font-family:'Inter',sans-serif}
+.filter-chip.on{background:rgba(56,189,248,0.1);border-color:rgba(56,189,248,0.3);color:var(--accent)}
 .doubts-feed{display:flex;flex-direction:column;gap:10px;max-height:520px;overflow-y:auto;padding-right:4px}
 .doubts-feed::-webkit-scrollbar{width:3px}
 .doubts-feed::-webkit-scrollbar-thumb{background:rgba(56,189,248,0.2);border-radius:99px}
-.doubt-card{background:var(–card2);border:1px solid var(–border);border-radius:12px;padding:14px 16px;transition:border-color 0.2s,transform 0.2s;animation:cardIn 0.4s ease}
+.doubt-card{background:var(--card2);border:1px solid var(--border);border-radius:12px;padding:14px 16px;transition:border-color 0.2s,transform 0.2s;animation:cardIn 0.4s ease}
 @keyframes cardIn{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
-.doubt-card:hover{border-color:var(–border2)}
-.doubt-card.answered-card{border-left:3px solid var(–accent3)}
-.doubt-card.pending-card{border-left:3px solid var(–accent4)}
-.dc-question{font-size:0.86rem;color:var(–head);font-weight:500;line-height:1.55;margin-bottom:10px}
+.doubt-card:hover{border-color:var(--border2)}
+.doubt-card.answered-card{border-left:3px solid var(--accent3)}
+.doubt-card.pending-card{border-left:3px solid var(--accent4)}
+.dc-question{font-size:0.86rem;color:var(--head);font-weight:500;line-height:1.55;margin-bottom:10px}
 .dc-meta{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:10px}
 .pill{font-size:0.62rem;font-weight:700;padding:2px 9px;border-radius:99px}
-.pill-concept{background:rgba(56,189,248,0.1);color:var(–accent)}
-.pill-exam{background:rgba(129,140,248,0.1);color:var(–accent2)}
-.pill-assignment{background:rgba(251,146,60,0.1);color:var(–accent4)}
-.pill-general{background:rgba(52,211,153,0.1);color:var(–accent3)}
-.pill-pending{background:rgba(251,146,60,0.08);color:var(–accent4);border:1px solid rgba(251,146,60,0.2)}
-.pill-answered{background:rgba(52,211,153,0.08);color:var(–accent3);border:1px solid rgba(52,211,153,0.2)}
-.upvote-btn{display:flex;align-items:center;gap:4px;background:none;border:1px solid var(–border);border-radius:6px;padding:2px 9px;cursor:pointer;font-size:0.7rem;color:var(–muted);transition:all 0.2s;font-family:‘Inter’,sans-serif}
-.upvote-btn:hover,.upvote-btn.voted{border-color:var(–accent);color:var(–accent);background:rgba(56,189,248,0.06)}
-.time-lbl{font-size:0.64rem;color:var(–muted);margin-left:auto}
+.pill-concept{background:rgba(56,189,248,0.1);color:var(--accent)}
+.pill-exam{background:rgba(129,140,248,0.1);color:var(--accent2)}
+.pill-assignment{background:rgba(251,146,60,0.1);color:var(--accent4)}
+.pill-general{background:rgba(52,211,153,0.1);color:var(--accent3)}
+.pill-pending{background:rgba(251,146,60,0.08);color:var(--accent4);border:1px solid rgba(251,146,60,0.2)}
+.pill-answered{background:rgba(52,211,153,0.08);color:var(--accent3);border:1px solid rgba(52,211,153,0.2)}
+.upvote-btn{display:flex;align-items:center;gap:4px;background:none;border:1px solid var(--border);border-radius:6px;padding:2px 9px;cursor:pointer;font-size:0.7rem;color:var(--muted);transition:all 0.2s;font-family:'Inter',sans-serif}
+.upvote-btn:hover,.upvote-btn.voted{border-color:var(--accent);color:var(--accent);background:rgba(56,189,248,0.06)}
+.time-lbl{font-size:0.64rem;color:var(--muted);margin-left:auto}
 /* Answer section inside card */
 .dc-answer-box{background:rgba(52,211,153,0.05);border:1px solid rgba(52,211,153,0.15);border-radius:9px;padding:10px 13px;margin-top:8px}
-.dc-answer-lbl{font-size:0.62rem;font-weight:700;text-transform:uppercase;letter-spacing:0.07em;color:var(–accent3);margin-bottom:5px}
-.dc-answer-text{font-size:0.82rem;color:var(–text);line-height:1.6}
+.dc-answer-lbl{font-size:0.62rem;font-weight:700;text-transform:uppercase;letter-spacing:0.07em;color:var(--accent3);margin-bottom:5px}
+.dc-answer-text{font-size:0.82rem;color:var(--text);line-height:1.6}
 /* Inline answer form (teacher) */
 .answer-form{margin-top:10px;display:none}
 .answer-form.open{display:block}
-.answer-form textarea{width:100%;background:var(–bg);border:1px solid rgba(129,140,248,0.25);border-radius:9px;padding:10px 13px;color:var(–text);font-family:‘Inter’,sans-serif;font-size:0.82rem;resize:none;outline:none;min-height:70px;transition:border-color 0.2s;line-height:1.55}
+.answer-form textarea{width:100%;background:var(--bg);border:1px solid rgba(129,140,248,0.25);border-radius:9px;padding:10px 13px;color:var(--text);font-family:'Inter',sans-serif;font-size:0.82rem;resize:none;outline:none;min-height:70px;transition:border-color 0.2s;line-height:1.55}
 .answer-form textarea:focus{border-color:rgba(129,140,248,0.5)}
-.answer-form textarea::placeholder{color:var(–muted)}
+.answer-form textarea::placeholder{color:var(--muted)}
 .answer-form-btns{display:flex;gap:8px;margin-top:8px}
-.btn-post-ans{padding:8px 18px;background:linear-gradient(135deg,#818cf8,#34d399);border:none;border-radius:8px;color:#fff;font-family:‘Syne’,sans-serif;font-weight:700;font-size:0.76rem;cursor:pointer;transition:opacity 0.2s}
+.btn-post-ans{padding:8px 18px;background:linear-gradient(135deg,#818cf8,#34d399);border:none;border-radius:8px;color:#fff;font-family:'Syne',sans-serif;font-weight:700;font-size:0.76rem;cursor:pointer;transition:opacity 0.2s}
 .btn-post-ans:hover{opacity:0.88}
-.btn-cancel-ans{padding:8px 14px;background:transparent;border:1px solid var(–border);border-radius:8px;color:var(–muted);font-family:‘Inter’,sans-serif;font-size:0.76rem;cursor:pointer;transition:color 0.2s,border-color 0.2s}
-.btn-cancel-ans:hover{color:var(–text);border-color:var(–border2)}
-.btn-open-answer{padding:6px 14px;background:rgba(129,140,248,0.08);border:1px solid rgba(129,140,248,0.2);border-radius:7px;color:var(–accent2);font-family:‘Syne’,sans-serif;font-size:0.72rem;font-weight:700;cursor:pointer;transition:all 0.2s;margin-top:8px}
+.btn-cancel-ans{padding:8px 14px;background:transparent;border:1px solid var(--border);border-radius:8px;color:var(--muted);font-family:'Inter',sans-serif;font-size:0.76rem;cursor:pointer;transition:color 0.2s,border-color 0.2s}
+.btn-cancel-ans:hover{color:var(--text);border-color:var(--border2)}
+.btn-open-answer{padding:6px 14px;background:rgba(129,140,248,0.08);border:1px solid rgba(129,140,248,0.2);border-radius:7px;color:var(--accent2);font-family:'Syne',sans-serif;font-size:0.72rem;font-weight:700;cursor:pointer;transition:all 0.2s;margin-top:8px}
 .btn-open-answer:hover{background:rgba(129,140,248,0.15);border-color:rgba(129,140,248,0.4)}
-.btn-delete{padding:5px 10px;background:rgba(248,113,113,0.07);border:1px solid rgba(248,113,113,0.15);border-radius:6px;color:#f87171;font-size:0.7rem;cursor:pointer;transition:all 0.2s;font-family:‘Inter’,sans-serif}
+.btn-delete{padding:5px 10px;background:rgba(248,113,113,0.07);border:1px solid rgba(248,113,113,0.15);border-radius:6px;color:#f87171;font-size:0.7rem;cursor:pointer;transition:all 0.2s;font-family:'Inter',sans-serif}
 .btn-delete:hover{background:rgba(248,113,113,0.14)}
-.empty-state{text-align:center;padding:44px 20px;color:var(–muted)}
+.empty-state{text-align:center;padding:44px 20px;color:var(--muted)}
 .empty-state .ei{font-size:2rem;margin-bottom:10px}
 .empty-state p{font-size:0.82rem}
 
 /* Stats bar below teacher panel */
 .demo-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px}
-.demo-stat{background:var(–card);border:1px solid var(–border);border-radius:10px;padding:12px;text-align:center}
-.demo-stat-n{font-family:‘Syne’,sans-serif;font-size:1.4rem;font-weight:800;background:linear-gradient(135deg,#38bdf8,#34d399);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-.demo-stat-l{font-size:0.65rem;color:var(–muted);text-transform:uppercase;letter-spacing:0.07em;margin-top:2px}
+.demo-stat{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:12px;text-align:center}
+.demo-stat-n{font-family:'Syne',sans-serif;font-size:1.4rem;font-weight:800;background:linear-gradient(135deg,#38bdf8,#34d399);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.demo-stat-l{font-size:0.65rem;color:var(--muted);text-transform:uppercase;letter-spacing:0.07em;margin-top:2px}
 
 /* Toast */
 #toast{position:fixed;bottom:80px;left:50%;transform:translateX(-50%) translateY(16px);padding:10px 22px;border-radius:99px;font-size:0.8rem;font-weight:600;z-index:600;opacity:0;transition:all 0.3s;pointer-events:none;white-space:nowrap}
 #toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
-#toast.success{background:rgba(52,211,153,0.12);border:1px solid rgba(52,211,153,0.3);color:var(–accent3)}
+#toast.success{background:rgba(52,211,153,0.12);border:1px solid rgba(52,211,153,0.3);color:var(--accent3)}
 #toast.error{background:rgba(248,113,113,0.12);border:1px solid rgba(248,113,113,0.3);color:#f87171}
-#toast.info{background:rgba(56,189,248,0.12);border:1px solid rgba(56,189,248,0.25);color:var(–accent)}
+#toast.info{background:rgba(56,189,248,0.12);border:1px solid rgba(56,189,248,0.25);color:var(--accent)}
 
 @media(max-width:600px){
-.phase-nav{flex-direction:column}
-.phase-btn{flex-direction:row;gap:12px;justify-content:flex-start;border-right:none;border-bottom:1px solid var(–border)}
-.phase-btn:last-child{border-bottom:none}
-.stats-row{gap:28px}
-.sol-layout{grid-template-columns:1fr}
-.form-row{grid-template-columns:1fr}
-.role-tabs{flex-direction:column}
+  .phase-nav{flex-direction:column}
+  .phase-btn{flex-direction:row;gap:12px;justify-content:flex-start;border-right:none;border-bottom:1px solid var(--border)}
+  .phase-btn:last-child{border-bottom:none}
+  .stats-row{gap:28px}
+  .sol-layout{grid-template-columns:1fr}
+  .form-row{grid-template-columns:1fr}
+  .role-tabs{flex-direction:column}
 }
 ::-webkit-scrollbar{width:5px}
-::-webkit-scrollbar-track{background:var(–bg)}
+::-webkit-scrollbar-track{background:var(--bg)}
 ::-webkit-scrollbar-thumb{background:rgba(56,189,248,0.2);border-radius:99px}
 </style>
-
 </head>
 <body>
 
@@ -356,7 +354,6 @@ LIVE DEMO — FULLY WORKING SYSTEM
 </div>
 
 <!-- HERO -->
-
 <div id="hero">
   <div class="hero-badge"><div class="hero-dot"></div>Design Thinking &amp; Innovation · AIML · VVIT Nambur · JNTUK</div>
   <h1 class="hero-title">Silence Isn't<br><span class="grad">Understanding</span></h1>
@@ -377,7 +374,6 @@ LIVE DEMO — FULLY WORKING SYSTEM
 <div class="divider"></div>
 
 <!-- PROBLEM -->
-
 <section class="page-section" id="problem">
   <div class="reveal">
     <div class="sec-tag">Chapter 1 · Problem Statement</div>
@@ -399,7 +395,6 @@ LIVE DEMO — FULLY WORKING SYSTEM
 <div class="divider"></div>
 
 <!-- FINDINGS -->
-
 <section class="page-section" id="findings">
   <div class="reveal">
     <div class="sec-tag">Chapter 3 · Empathy Phase</div>
@@ -449,7 +444,6 @@ LIVE DEMO — FULLY WORKING SYSTEM
 <div class="divider"></div>
 
 <!-- PROCESS -->
-
 <section class="page-section" id="process">
   <div class="reveal">
     <div class="sec-tag">Chapters 3–9 · Design Thinking Methodology</div>
@@ -477,7 +471,6 @@ LIVE DEMO — FULLY WORKING SYSTEM
 <div class="divider"></div>
 
 <!-- SOLUTION -->
-
 <section class="page-section" id="solution">
   <div class="reveal">
     <div class="sec-tag">Chapters 5–6 · The Solution</div>
@@ -530,7 +523,6 @@ LIVE DEMO — FULLY WORKING SYSTEM
      LIVE DEMO — FULLY FUNCTIONAL
      Student submits → Teacher sees & answers
      ══════════════════════════════════════════ -->
-
 <div class="demo-section-wrap" id="demo">
   <div class="demo-intro reveal">
     <div class="sec-tag">Interactive Prototype · Fully Working</div>
@@ -544,84 +536,82 @@ LIVE DEMO — FULLY WORKING SYSTEM
 
   <div class="demo-arena reveal">
 
-```
-<!-- ── STUDENT PANEL ── -->
-<div class="demo-panel" id="student-panel">
-  <div class="panel-header student-hdr">
-    <span class="panel-role-badge student-badge">🎓 Student View</span>
-    <div class="live-indicator"><div class="live-dot"></div>Anonymous</div>
-  </div>
-  <div class="panel-body">
-    <div class="anon-notice">
-      <span>🔒</span>
-      <p>Your identity is completely hidden. No one — not even the teacher — can see who asked this question.</p>
-    </div>
-    <div class="form-field">
-      <label>Your Doubt *</label>
-      <textarea id="s-doubt" placeholder="e.g. Can you explain gradient descent with a simple analogy?" maxlength="500" oninput="updateChar()"></textarea>
-    </div>
-    <div class="char-bar-wrap">
-      <div class="char-bar-bg"><div class="char-bar-fill" id="char-fill" style="width:0%"></div></div>
-      <span class="char-count-lbl" id="char-lbl">0 / 500</span>
-    </div>
-    <div class="form-row">
-      <div class="form-field" style="margin:0">
-        <label>Category</label>
-        <select id="s-cat">
-          <option value="concept">📘 Concept Doubt</option>
-          <option value="exam">📝 Exam Related</option>
-          <option value="assignment">📌 Assignment</option>
-          <option value="general">💬 General Question</option>
-        </select>
+    <!-- ── STUDENT PANEL ── -->
+    <div class="demo-panel" id="student-panel">
+      <div class="panel-header student-hdr">
+        <span class="panel-role-badge student-badge">🎓 Student View</span>
+        <div class="live-indicator"><div class="live-dot"></div>Anonymous</div>
       </div>
-      <div class="form-field" style="margin:0">
-        <label>Subject</label>
-        <select id="s-subj">
-          <option value="Machine Learning">Machine Learning</option>
-          <option value="Deep Learning">Deep Learning</option>
-          <option value="Data Structures">Data Structures</option>
-          <option value="Python">Python</option>
-          <option value="General">General</option>
-        </select>
+      <div class="panel-body">
+        <div class="anon-notice">
+          <span>🔒</span>
+          <p>Your identity is completely hidden. No one — not even the teacher — can see who asked this question.</p>
+        </div>
+        <div class="form-field">
+          <label>Your Doubt *</label>
+          <textarea id="s-doubt" placeholder="e.g. Can you explain gradient descent with a simple analogy?" maxlength="500" oninput="updateChar()"></textarea>
+        </div>
+        <div class="char-bar-wrap">
+          <div class="char-bar-bg"><div class="char-bar-fill" id="char-fill" style="width:0%"></div></div>
+          <span class="char-count-lbl" id="char-lbl">0 / 500</span>
+        </div>
+        <div class="form-row">
+          <div class="form-field" style="margin:0">
+            <label>Category</label>
+            <select id="s-cat">
+              <option value="concept">📘 Concept Doubt</option>
+              <option value="exam">📝 Exam Related</option>
+              <option value="assignment">📌 Assignment</option>
+              <option value="general">💬 General Question</option>
+            </select>
+          </div>
+          <div class="form-field" style="margin:0">
+            <label>Subject</label>
+            <select id="s-subj">
+              <option value="Machine Learning">Machine Learning</option>
+              <option value="Deep Learning">Deep Learning</option>
+              <option value="Data Structures">Data Structures</option>
+              <option value="Python">Python</option>
+              <option value="General">General</option>
+            </select>
+          </div>
+        </div>
+        <button class="submit-btn" id="s-btn" onclick="studentSubmit()">
+          <span id="s-btn-txt">Submit Anonymously →</span>
+          <div class="spinner" id="s-spinner"></div>
+        </button>
+        <div class="success-flash" id="s-success">
+          <p>✅ Doubt submitted anonymously! The teacher will answer soon.</p>
+        </div>
+        <!-- My submitted doubts in this session -->
+        <div style="margin-top:20px;border-top:1px solid var(--border);padding-top:16px">
+          <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-bottom:10px">Your Submitted Doubts This Session</div>
+          <div id="my-doubts-list"><div class="empty-state"><div class="ei">📭</div><p>No doubts submitted yet</p></div></div>
+        </div>
       </div>
     </div>
-    <button class="submit-btn" id="s-btn" onclick="studentSubmit()">
-      <span id="s-btn-txt">Submit Anonymously →</span>
-      <div class="spinner" id="s-spinner"></div>
-    </button>
-    <div class="success-flash" id="s-success">
-      <p>✅ Doubt submitted anonymously! The teacher will answer soon.</p>
-    </div>
-    <!-- My submitted doubts in this session -->
-    <div style="margin-top:20px;border-top:1px solid var(--border);padding-top:16px">
-      <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-bottom:10px">Your Submitted Doubts This Session</div>
-      <div id="my-doubts-list"><div class="empty-state"><div class="ei">📭</div><p>No doubts submitted yet</p></div></div>
-    </div>
-  </div>
-</div>
 
-<!-- ── TEACHER PANEL ── -->
-<div class="demo-panel" id="teacher-panel">
-  <div class="panel-header teacher-hdr">
-    <span class="panel-role-badge teacher-badge">👩‍🏫 Teacher Dashboard</span>
-    <div class="live-indicator"><div class="live-dot"></div>Live</div>
-  </div>
-  <div class="panel-body">
-    <div class="t-toolbar">
-      <input class="t-search" id="t-search" type="text" placeholder="🔍 Search doubts..." oninput="renderTeacher()"/>
-      <button class="filter-chip on" data-f="all" onclick="setFilter(this)">All</button>
-      <button class="filter-chip" data-f="pending" onclick="setFilter(this)">Pending</button>
-      <button class="filter-chip" data-f="answered" onclick="setFilter(this)">Answered</button>
+    <!-- ── TEACHER PANEL ── -->
+    <div class="demo-panel" id="teacher-panel">
+      <div class="panel-header teacher-hdr">
+        <span class="panel-role-badge teacher-badge">👩‍🏫 Teacher Dashboard</span>
+        <div class="live-indicator"><div class="live-dot"></div>Live</div>
+      </div>
+      <div class="panel-body">
+        <div class="t-toolbar">
+          <input class="t-search" id="t-search" type="text" placeholder="🔍 Search doubts..." oninput="renderTeacher()"/>
+          <button class="filter-chip on" data-f="all" onclick="setFilter(this)">All</button>
+          <button class="filter-chip" data-f="pending" onclick="setFilter(this)">Pending</button>
+          <button class="filter-chip" data-f="answered" onclick="setFilter(this)">Answered</button>
+        </div>
+        <div class="doubts-feed" id="doubts-feed"></div>
+        <div class="demo-stats">
+          <div class="demo-stat"><div class="demo-stat-n" id="ds-total">0</div><div class="demo-stat-l">Total</div></div>
+          <div class="demo-stat"><div class="demo-stat-n" id="ds-pending">0</div><div class="demo-stat-l">Pending</div></div>
+          <div class="demo-stat"><div class="demo-stat-n" id="ds-answered">0</div><div class="demo-stat-l">Answered</div></div>
+        </div>
+      </div>
     </div>
-    <div class="doubts-feed" id="doubts-feed"></div>
-    <div class="demo-stats">
-      <div class="demo-stat"><div class="demo-stat-n" id="ds-total">0</div><div class="demo-stat-l">Total</div></div>
-      <div class="demo-stat"><div class="demo-stat-n" id="ds-pending">0</div><div class="demo-stat-l">Pending</div></div>
-      <div class="demo-stat"><div class="demo-stat-n" id="ds-answered">0</div><div class="demo-stat-l">Answered</div></div>
-    </div>
-  </div>
-</div>
-```
 
   </div>
 </div>
@@ -629,7 +619,6 @@ LIVE DEMO — FULLY WORKING SYSTEM
 <div class="divider"></div>
 
 <!-- RESULTS -->
-
 <section class="page-section" id="results">
   <div class="reveal">
     <div class="sec-tag">Chapter 7 · Test Phase Results</div>
@@ -651,7 +640,6 @@ LIVE DEMO — FULLY WORKING SYSTEM
 <div class="divider"></div>
 
 <!-- FUTURE -->
-
 <section class="page-section" id="future">
   <div class="reveal">
     <div class="sec-tag">Chapter 11 · Future Scope</div>
@@ -673,7 +661,6 @@ LIVE DEMO — FULLY WORKING SYSTEM
 <div class="divider"></div>
 
 <!-- TEAM -->
-
 <section class="page-section" id="team">
   <div class="reveal">
     <div class="sec-tag">Project Team · VVIT Nambur · JNTUK 2025–26</div>
@@ -839,247 +826,242 @@ function renderTeacher() {
       </button>
       <div class="answer-form ${isOpen?'open':''}" id="af-${d.id}">
         <textarea id="at-${d.id}" placeholder="Type a clear and helpful answer..." rows="3">${escH(d.answer||'')}</textarea>
-
-```
-    <div class="answer-form-btns">
-      <button class="btn-post-ans" onclick="postAnswer('${d.id}')">Post Answer →</button>
-      <button class="btn-cancel-ans" onclick="toggleAnswerForm('${d.id}')">Cancel</button>
-    </div>
-  </div>
-</div>`;
-```
-
-}).join(’’);
+        <div class="answer-form-btns">
+          <button class="btn-post-ans" onclick="postAnswer('${d.id}')">Post Answer →</button>
+          <button class="btn-cancel-ans" onclick="toggleAnswerForm('${d.id}')">Cancel</button>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
 }
 
 /* ── TEACHER: toggle answer form open/close ── */
 function toggleAnswerForm(id) {
-openAnswerIds[id] = !openAnswerIds[id];
-renderTeacher();
-// scroll into view
-setTimeout(() => {
-const af = document.getElementById(‘af-’+id);
-if(af && openAnswerIds[id]) {
-af.querySelector(‘textarea’).focus();
-af.scrollIntoView({behavior:‘smooth’, block:‘nearest’});
-}
-}, 80);
+  openAnswerIds[id] = !openAnswerIds[id];
+  renderTeacher();
+  // scroll into view
+  setTimeout(() => {
+    const af = document.getElementById('af-'+id);
+    if(af && openAnswerIds[id]) {
+      af.querySelector('textarea').focus();
+      af.scrollIntoView({behavior:'smooth', block:'nearest'});
+    }
+  }, 80);
 }
 
 /* ── TEACHER: post answer ── */
 function postAnswer(id) {
-const ansEl = document.getElementById(‘at-’+id);
-if(!ansEl) return;
-const ans = ansEl.value.trim();
-if(!ans || ans.length < 5) { showToast(‘Please write a proper answer (min 5 chars)’, ‘error’); return; }
+  const ansEl = document.getElementById('at-'+id);
+  if(!ansEl) return;
+  const ans = ansEl.value.trim();
+  if(!ans || ans.length < 5) { showToast('Please write a proper answer (min 5 chars)', 'error'); return; }
 
-const doubts = getDoubts();
-const d = doubts.find(x => x.id === id);
-if(!d) return;
-d.answer = ans;
-d.status = ‘answered’;
-saveDoubts(doubts);
-openAnswerIds[id] = false;
+  const doubts = getDoubts();
+  const d = doubts.find(x => x.id === id);
+  if(!d) return;
+  d.answer = ans;
+  d.status = 'answered';
+  saveDoubts(doubts);
+  openAnswerIds[id] = false;
 
-showToast(‘✅ Answer posted! Students can now see it.’, ‘success’);
-renderTeacher();
-updateStats();
-renderMyDoubts(); // refresh student side too
+  showToast('✅ Answer posted! Students can now see it.', 'success');
+  renderTeacher();
+  updateStats();
+  renderMyDoubts(); // refresh student side too
 }
 
 /* ── TEACHER: upvote ── */
 function teacherUpvote(id, btn) {
-const doubts = getDoubts();
-const d = doubts.find(x => x.id === id);
-if(!d) return;
-if(d._myVote) { d.upvotes = Math.max(0, d.upvotes - 1); d._myVote = false; }
-else { d.upvotes++; d._myVote = true; }
-saveDoubts(doubts);
-renderTeacher();
+  const doubts = getDoubts();
+  const d = doubts.find(x => x.id === id);
+  if(!d) return;
+  if(d._myVote) { d.upvotes = Math.max(0, d.upvotes - 1); d._myVote = false; }
+  else { d.upvotes++; d._myVote = true; }
+  saveDoubts(doubts);
+  renderTeacher();
 }
 
 /* ── TEACHER: delete ── */
 function teacherDelete(id) {
-if(!confirm(‘Delete this doubt from the system?’)) return;
-const doubts = getDoubts().filter(d => d.id !== id);
-saveDoubts(doubts);
-mySessionIds = mySessionIds.filter(x => x !== id);
-showToast(‘Doubt deleted’, ‘info’);
-renderTeacher();
-updateStats();
-renderMyDoubts();
+  if(!confirm('Delete this doubt from the system?')) return;
+  const doubts = getDoubts().filter(d => d.id !== id);
+  saveDoubts(doubts);
+  mySessionIds = mySessionIds.filter(x => x !== id);
+  showToast('Doubt deleted', 'info');
+  renderTeacher();
+  updateStats();
+  renderMyDoubts();
 }
 
 /* ── TEACHER: filter chips ── */
 function setFilter(el) {
-tFilter = el.dataset.f;
-document.querySelectorAll(’.filter-chip’).forEach(c => c.classList.remove(‘on’));
-el.classList.add(‘on’);
-renderTeacher();
+  tFilter = el.dataset.f;
+  document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('on'));
+  el.classList.add('on');
+  renderTeacher();
 }
 
 /* ── STATS ── */
 function updateStats() {
-const all = getDoubts();
-document.getElementById(‘ds-total’).textContent = all.length;
-document.getElementById(‘ds-pending’).textContent = all.filter(d=>d.status===‘pending’).length;
-document.getElementById(‘ds-answered’).textContent = all.filter(d=>d.status===‘answered’).length;
+  const all = getDoubts();
+  document.getElementById('ds-total').textContent = all.length;
+  document.getElementById('ds-pending').textContent = all.filter(d=>d.status==='pending').length;
+  document.getElementById('ds-answered').textContent = all.filter(d=>d.status==='answered').length;
 }
 
 /* ── AUTO-POLL: refresh teacher feed & student feed every 1.5s ── */
-let lastHash = ‘’;
+let lastHash = '';
 setInterval(() => {
-const doubts = getDoubts();
-const h = doubts.map(d=>d.id+’|’+d.status+’|’+d.upvotes).join(’,’);
-if(h !== lastHash) {
-lastHash = h;
-renderTeacher();
-renderMyDoubts();
-updateStats();
-}
+  const doubts = getDoubts();
+  const h = doubts.map(d=>d.id+'|'+d.status+'|'+d.upvotes).join(',');
+  if(h !== lastHash) {
+    lastHash = h;
+    renderTeacher();
+    renderMyDoubts();
+    updateStats();
+  }
 }, 1500);
 
 /* ── ROLE SWITCHER (mobile highlight) ── */
 function switchRole(role) {
-const st = document.getElementById(‘rt-student’);
-const te = document.getElementById(‘rt-teacher’);
-if(role === ‘student’) {
-st.className = ‘role-tab active-student’;
-te.className = ‘role-tab’;
-document.getElementById(‘student-panel’).style.order = ‘1’;
-document.getElementById(‘teacher-panel’).style.order = ‘2’;
-document.getElementById(‘s-doubt’).focus();
-} else {
-te.className = ‘role-tab active-teacher’;
-st.className = ‘role-tab’;
-document.getElementById(‘teacher-panel’).style.order = ‘1’;
-document.getElementById(‘student-panel’).style.order = ‘2’;
-document.getElementById(‘t-search’).focus();
-}
+  const st = document.getElementById('rt-student');
+  const te = document.getElementById('rt-teacher');
+  if(role === 'student') {
+    st.className = 'role-tab active-student';
+    te.className = 'role-tab';
+    document.getElementById('student-panel').style.order = '1';
+    document.getElementById('teacher-panel').style.order = '2';
+    document.getElementById('s-doubt').focus();
+  } else {
+    te.className = 'role-tab active-teacher';
+    st.className = 'role-tab';
+    document.getElementById('teacher-panel').style.order = '1';
+    document.getElementById('student-panel').style.order = '2';
+    document.getElementById('t-search').focus();
+  }
 }
 
 /* ── CHAR COUNT ── */
 function updateChar() {
-const v = document.getElementById(‘s-doubt’).value.length;
-document.getElementById(‘char-lbl’).textContent = v + ’ / 500’;
-const pct = (v/500)*100;
-const fill = document.getElementById(‘char-fill’);
-fill.style.width = pct + ‘%’;
-fill.style.background = pct > 80 ? ‘linear-gradient(90deg,#fb923c,#f87171)’ : ‘linear-gradient(90deg,#38bdf8,#818cf8)’;
+  const v = document.getElementById('s-doubt').value.length;
+  document.getElementById('char-lbl').textContent = v + ' / 500';
+  const pct = (v/500)*100;
+  const fill = document.getElementById('char-fill');
+  fill.style.width = pct + '%';
+  fill.style.background = pct > 80 ? 'linear-gradient(90deg,#fb923c,#f87171)' : 'linear-gradient(90deg,#38bdf8,#818cf8)';
 }
 
 /* ═══════════════════
-REST OF PAGE LOGIC
-═══════════════════ */
+   REST OF PAGE LOGIC
+   ═══════════════════ */
 
 // LOADER
-const msgs = [“Initializing system…”,“Loading project data…”,“Preparing live demo…”,“Almost ready…”];
+const msgs = ["Initializing system...","Loading project data...","Preparing live demo...","Almost ready..."];
 let pct=0, mi=0;
-const lf=document.getElementById(‘lf’), lt=document.getElementById(‘lt’);
+const lf=document.getElementById('lf'), lt=document.getElementById('lt');
 const loaderInt = setInterval(()=>{
-pct += Math.random()*18+6;
-if(pct>100) pct=100;
-lf.style.width=pct+’%’;
-if(pct>25&&mi<1){mi=1;lt.textContent=msgs[1];}
-if(pct>55&&mi<2){mi=2;lt.textContent=msgs[2];}
-if(pct>80&&mi<3){mi=3;lt.textContent=msgs[3];}
-if(pct>=100){
-clearInterval(loaderInt);
-setTimeout(()=>{
-document.getElementById(‘loader’).style.opacity=‘0’;
-setTimeout(()=>{ document.getElementById(‘loader’).style.display=‘none’; startApp(); },600);
-},400);
-}
+  pct += Math.random()*18+6;
+  if(pct>100) pct=100;
+  lf.style.width=pct+'%';
+  if(pct>25&&mi<1){mi=1;lt.textContent=msgs[1];}
+  if(pct>55&&mi<2){mi=2;lt.textContent=msgs[2];}
+  if(pct>80&&mi<3){mi=3;lt.textContent=msgs[3];}
+  if(pct>=100){
+    clearInterval(loaderInt);
+    setTimeout(()=>{
+      document.getElementById('loader').style.opacity='0';
+      setTimeout(()=>{ document.getElementById('loader').style.display='none'; startApp(); },600);
+    },400);
+  }
 },80);
 
 function startApp(){
-initParticles(); initScrollReveal(); initCounters(); initNavHighlight();
-renderTeacher(); renderMyDoubts(); updateStats();
+  initParticles(); initScrollReveal(); initCounters(); initNavHighlight();
+  renderTeacher(); renderMyDoubts(); updateStats();
 }
 
 // CURSOR
-const cur=document.getElementById(‘cursor’), ring=document.getElementById(‘cursor-ring’);
+const cur=document.getElementById('cursor'), ring=document.getElementById('cursor-ring');
 let rx=0,ry=0;
-document.addEventListener(‘mousemove’,e=>{ cur.style.left=e.clientX+‘px’; cur.style.top=e.clientY+‘px’; rx+=(e.clientX-rx)*0.12; ry+=(e.clientY-ry)*0.12; ring.style.left=rx+‘px’; ring.style.top=ry+‘px’; });
-(function raf(){ rx+=(parseFloat(cur.style.left||0)-rx)*0.12; ry+=(parseFloat(cur.style.top||0)-ry)*0.12; ring.style.left=rx+‘px’; ring.style.top=ry+‘px’; requestAnimationFrame(raf); })();
-document.querySelectorAll(‘button,a,.prob-card,.tm-card,.step-row,.phase-btn,.ptab,.role-tab’).forEach(el=>{
-el.addEventListener(‘mouseenter’,()=>{ cur.style.transform=‘translate(-50%,-50%) scale(2)’; ring.style.width=‘50px’; ring.style.height=‘50px’; });
-el.addEventListener(‘mouseleave’,()=>{ cur.style.transform=‘translate(-50%,-50%) scale(1)’; ring.style.width=‘36px’; ring.style.height=‘36px’; });
+document.addEventListener('mousemove',e=>{ cur.style.left=e.clientX+'px'; cur.style.top=e.clientY+'px'; rx+=(e.clientX-rx)*0.12; ry+=(e.clientY-ry)*0.12; ring.style.left=rx+'px'; ring.style.top=ry+'px'; });
+(function raf(){ rx+=(parseFloat(cur.style.left||0)-rx)*0.12; ry+=(parseFloat(cur.style.top||0)-ry)*0.12; ring.style.left=rx+'px'; ring.style.top=ry+'px'; requestAnimationFrame(raf); })();
+document.querySelectorAll('button,a,.prob-card,.tm-card,.step-row,.phase-btn,.ptab,.role-tab').forEach(el=>{
+  el.addEventListener('mouseenter',()=>{ cur.style.transform='translate(-50%,-50%) scale(2)'; ring.style.width='50px'; ring.style.height='50px'; });
+  el.addEventListener('mouseleave',()=>{ cur.style.transform='translate(-50%,-50%) scale(1)'; ring.style.width='36px'; ring.style.height='36px'; });
 });
 
 // PARTICLES
 function initParticles(){
-const canvas=document.getElementById(‘particles-canvas’), ctx=canvas.getContext(‘2d’);
-canvas.width=window.innerWidth; canvas.height=window.innerHeight;
-window.addEventListener(‘resize’,()=>{ canvas.width=window.innerWidth; canvas.height=window.innerHeight; });
-const R=[{r:56,g:189,b:248},{r:129,g:140,b:248},{r:52,g:211,b:153}];
-const pts=Array.from({length:55},()=>{ const c=R[Math.floor(Math.random()*3)]; return {x:Math.random()*canvas.width,y:Math.random()*canvas.height,vx:(Math.random()-.5)*.3,vy:(Math.random()-.5)*.3,rad:Math.random()*1.8+.4,…c}; });
-(function draw(){
-ctx.clearRect(0,0,canvas.width,canvas.height);
-pts.forEach(p=>{ p.x+=p.vx; p.y+=p.vy; if(p.x<0)p.x=canvas.width; if(p.x>canvas.width)p.x=0; if(p.y<0)p.y=canvas.height; if(p.y>canvas.height)p.y=0; ctx.beginPath(); ctx.arc(p.x,p.y,p.rad,0,Math.PI*2); ctx.fillStyle=`rgba(${p.r},${p.g},${p.b},0.55)`; ctx.fill(); });
-pts.forEach((p,i)=>{ for(let j=i+1;j<pts.length;j++){ const d=Math.hypot(p.x-pts[j].x,p.y-pts[j].y); if(d<115){ ctx.beginPath(); ctx.moveTo(p.x,p.y); ctx.lineTo(pts[j].x,pts[j].y); ctx.strokeStyle=`rgba(56,189,248,${.06*(1-d/115)})`; ctx.lineWidth=.5; ctx.stroke(); } } });
-requestAnimationFrame(draw);
-})();
+  const canvas=document.getElementById('particles-canvas'), ctx=canvas.getContext('2d');
+  canvas.width=window.innerWidth; canvas.height=window.innerHeight;
+  window.addEventListener('resize',()=>{ canvas.width=window.innerWidth; canvas.height=window.innerHeight; });
+  const R=[{r:56,g:189,b:248},{r:129,g:140,b:248},{r:52,g:211,b:153}];
+  const pts=Array.from({length:55},()=>{ const c=R[Math.floor(Math.random()*3)]; return {x:Math.random()*canvas.width,y:Math.random()*canvas.height,vx:(Math.random()-.5)*.3,vy:(Math.random()-.5)*.3,rad:Math.random()*1.8+.4,...c}; });
+  (function draw(){
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+    pts.forEach(p=>{ p.x+=p.vx; p.y+=p.vy; if(p.x<0)p.x=canvas.width; if(p.x>canvas.width)p.x=0; if(p.y<0)p.y=canvas.height; if(p.y>canvas.height)p.y=0; ctx.beginPath(); ctx.arc(p.x,p.y,p.rad,0,Math.PI*2); ctx.fillStyle=`rgba(${p.r},${p.g},${p.b},0.55)`; ctx.fill(); });
+    pts.forEach((p,i)=>{ for(let j=i+1;j<pts.length;j++){ const d=Math.hypot(p.x-pts[j].x,p.y-pts[j].y); if(d<115){ ctx.beginPath(); ctx.moveTo(p.x,p.y); ctx.lineTo(pts[j].x,pts[j].y); ctx.strokeStyle=`rgba(56,189,248,${.06*(1-d/115)})`; ctx.lineWidth=.5; ctx.stroke(); } } });
+    requestAnimationFrame(draw);
+  })();
 }
 
 // SCROLL REVEAL
 function initScrollReveal(){
-const obs=new IntersectionObserver((entries)=>{ entries.forEach((e,i)=>{ if(e.isIntersecting){ setTimeout(()=>{ e.target.classList.add(‘visible’); animateBars(); },80*i); obs.unobserve(e.target); } }); },{threshold:.12});
-document.querySelectorAll(’.reveal’).forEach(el=>obs.observe(el));
+  const obs=new IntersectionObserver((entries)=>{ entries.forEach((e,i)=>{ if(e.isIntersecting){ setTimeout(()=>{ e.target.classList.add('visible'); animateBars(); },80*i); obs.unobserve(e.target); } }); },{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
 }
 function animateBars(){
-document.querySelectorAll(’.prog-fill’).forEach((bar,i)=>{
-if(bar._anim) return; bar._anim=true;
-const w=bar.dataset.width, pctEl=document.getElementById(‘p-pct-’+(i+1));
-let v=0;
-const s=()=>{ v+=1.5; if(v>w)v=w; bar.style.width=v+’%’; if(pctEl)pctEl.textContent=Math.round(v)+’%’; if(v<w)requestAnimationFrame(s); };
-setTimeout(()=>requestAnimationFrame(s),300+i*100);
-});
+  document.querySelectorAll('.prog-fill').forEach((bar,i)=>{
+    if(bar._anim) return; bar._anim=true;
+    const w=bar.dataset.width, pctEl=document.getElementById('p-pct-'+(i+1));
+    let v=0;
+    const s=()=>{ v+=1.5; if(v>w)v=w; bar.style.width=v+'%'; if(pctEl)pctEl.textContent=Math.round(v)+'%'; if(v<w)requestAnimationFrame(s); };
+    setTimeout(()=>requestAnimationFrame(s),300+i*100);
+  });
 }
 
 // COUNTERS
 function initCounters(){
-const obs=new IntersectionObserver((entries)=>{ entries.forEach(e=>{ if(e.isIntersecting){ const el=e.target,target=parseInt(el.dataset.target),suf=el.dataset.suffix||’’; let v=0; const inc=target/(1800/16); const t=setInterval(()=>{ v+=inc; if(v>=target){v=target;clearInterval(t);} el.textContent=Math.round(v)+suf; },16); obs.unobserve(el); } }); },{threshold:.5});
-document.querySelectorAll(’.counter’).forEach(el=>obs.observe(el));
+  const obs=new IntersectionObserver((entries)=>{ entries.forEach(e=>{ if(e.isIntersecting){ const el=e.target,target=parseInt(el.dataset.target),suf=el.dataset.suffix||''; let v=0; const inc=target/(1800/16); const t=setInterval(()=>{ v+=inc; if(v>=target){v=target;clearInterval(t);} el.textContent=Math.round(v)+suf; },16); obs.unobserve(el); } }); },{threshold:.5});
+  document.querySelectorAll('.counter').forEach(el=>obs.observe(el));
 }
 
 // NAV HIGHLIGHT
 function initNavHighlight(){
-const secs=[‘problem’,‘findings’,‘process’,‘solution’,‘demo’,‘results’,‘future’,‘team’];
-const links=document.querySelectorAll(’.nav-lnk’);
-window.addEventListener(‘scroll’,()=>{
-let c=’’; secs.forEach(id=>{ const el=document.getElementById(id); if(el&&window.scrollY>=el.offsetTop-120)c=id; });
-links.forEach(l=>l.classList.toggle(‘active’,l.getAttribute(‘href’)===’#’+c));
-document.getElementById(‘btt’).classList.toggle(‘show’,window.scrollY>400);
-});
+  const secs=['problem','findings','process','solution','demo','results','future','team'];
+  const links=document.querySelectorAll('.nav-lnk');
+  window.addEventListener('scroll',()=>{
+    let c=''; secs.forEach(id=>{ const el=document.getElementById(id); if(el&&window.scrollY>=el.offsetTop-120)c=id; });
+    links.forEach(l=>l.classList.toggle('active',l.getAttribute('href')==='#'+c));
+    document.getElementById('btt').classList.toggle('show',window.scrollY>400);
+  });
 }
 
 // HAMBURGER
-document.getElementById(‘hamburger’).addEventListener(‘click’,()=>document.getElementById(‘mobile-menu’).classList.toggle(‘open’));
-document.querySelectorAll(’.mm-lnk’).forEach(l=>l.addEventListener(‘click’,()=>document.getElementById(‘mobile-menu’).classList.remove(‘open’)));
+document.getElementById('hamburger').addEventListener('click',()=>document.getElementById('mobile-menu').classList.toggle('open'));
+document.querySelectorAll('.mm-lnk').forEach(l=>l.addEventListener('click',()=>document.getElementById('mobile-menu').classList.remove('open')));
 
 // PHASE EXPLORER
-function showPhase(n,btn){ document.querySelectorAll(’.phase-panel’).forEach(p=>p.classList.remove(‘active’)); document.querySelectorAll(’.phase-btn’).forEach(b=>b.classList.remove(‘active’)); document.getElementById(‘ph’+n).classList.add(‘active’); btn.classList.add(‘active’); }
+function showPhase(n,btn){ document.querySelectorAll('.phase-panel').forEach(p=>p.classList.remove('active')); document.querySelectorAll('.phase-btn').forEach(b=>b.classList.remove('active')); document.getElementById('ph'+n).classList.add('active'); btn.classList.add('active'); }
 
 // PERSONA TABS
-function showPersona(id,btn){ document.querySelectorAll(’.persona-content’).forEach(p=>p.classList.remove(‘active’)); document.querySelectorAll(’.ptab’).forEach(b=>b.classList.remove(‘active’)); document.getElementById(id).classList.add(‘active’); btn.classList.add(‘active’); }
+function showPersona(id,btn){ document.querySelectorAll('.persona-content').forEach(p=>p.classList.remove('active')); document.querySelectorAll('.ptab').forEach(b=>b.classList.remove('active')); document.getElementById(id).classList.add('active'); btn.classList.add('active'); }
 
 // STEP HIGHLIGHT
-function setStep(el){ document.querySelectorAll(’.step-row’).forEach(s=>s.classList.remove(‘active’)); el.classList.add(‘active’); const cats=[‘Concept Doubt’,‘Exam Related’,‘Assignment’,‘FAQ / Response’,‘All Doubts’]; const idx=parseInt(el.id.split(’-’)[1])-1; document.getElementById(‘cat-display’).textContent=’📂 Category: ’+cats[idx]; }
+function setStep(el){ document.querySelectorAll('.step-row').forEach(s=>s.classList.remove('active')); el.classList.add('active'); const cats=['Concept Doubt','Exam Related','Assignment','FAQ / Response','All Doubts']; const idx=parseInt(el.id.split('-')[1])-1; document.getElementById('cat-display').textContent='📂 Category: '+cats[idx]; }
 
 // PHONE TYPING DEMO
-const demoTexts=[“What is backpropagation in neural networks?”,“Can you explain overfitting with an example?”,“Is the assignment due this Friday or next?”,“What is the difference between AI and ML?”,“Can you clarify the last formula from today’s class?”];
+const demoTexts=["What is backpropagation in neural networks?","Can you explain overfitting with an example?","Is the assignment due this Friday or next?","What is the difference between AI and ML?","Can you clarify the last formula from today's class?"];
 let dIdx=0,cIdx=0,typing=true;
-const pp=document.getElementById(‘phone-preview’);
-function type(){ const t=demoTexts[dIdx]; if(typing){ cIdx++; pp.textContent=t.slice(0,cIdx); pp.classList.add(‘typing’); if(cIdx<t.length)setTimeout(type,55); else{typing=false;setTimeout(type,2000);} }else{ cIdx–; pp.textContent=t.slice(0,cIdx); if(cIdx>0)setTimeout(type,28); else{typing=true;cIdx=0;dIdx=(dIdx+1)%demoTexts.length;pp.classList.remove(‘typing’);setTimeout(type,600);} } }
+const pp=document.getElementById('phone-preview');
+function type(){ const t=demoTexts[dIdx]; if(typing){ cIdx++; pp.textContent=t.slice(0,cIdx); pp.classList.add('typing'); if(cIdx<t.length)setTimeout(type,55); else{typing=false;setTimeout(type,2000);} }else{ cIdx--; pp.textContent=t.slice(0,cIdx); if(cIdx>0)setTimeout(type,28); else{typing=true;cIdx=0;dIdx=(dIdx+1)%demoTexts.length;pp.classList.remove('typing');setTimeout(type,600);} } }
 setTimeout(type,3000);
 
 // TOAST
-function showToast(msg,type=‘info’){ const t=document.getElementById(‘toast’); t.textContent=msg; t.className=‘show ‘+type; setTimeout(()=>t.className=’’,2800); }
+function showToast(msg,type='info'){ const t=document.getElementById('toast'); t.textContent=msg; t.className='show '+type; setTimeout(()=>t.className='',2800); }
 
 // CTRL+ENTER to submit
-document.addEventListener(‘keydown’,e=>{ if(e.ctrlKey&&e.key===‘Enter’&&document.activeElement.id===‘s-doubt’) studentSubmit(); });
+document.addEventListener('keydown',e=>{ if(e.ctrlKey&&e.key==='Enter'&&document.activeElement.id==='s-doubt') studentSubmit(); });
 </script>
-
 </body>
 </html>
